@@ -1,0 +1,30 @@
+body {
+  font-family: monospace;
+  background: black;
+  color: white;
+  }
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  column-span: all;
+  }
+
+.animal-profile {
+  column-count: 5;
+  column-gap: 50px;
+  column-rule-style: solid;
+  column-rule-width: auto;
+}
+
+.animal-profile img {
+  width: 100%;
+}
+
+.animal-profile h2 {
+  color: orangered;
+}
+
+.animal-profile p {
+  text-align: justify;
+}
